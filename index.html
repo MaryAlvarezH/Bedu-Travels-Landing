@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Bedu Travels</a>
+            <a class="navbar-brand" href="#"><img src="assets/images/bedu-logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -54,7 +54,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h1>Comienza la aventura</h1>
                 <p>Bedu Travels es un sitio donde podrás encontrar los mejores destinos y experiencias</p>
-                <button class="btn btn-success">Conoce más</button>
+                <button class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">Conoce más</button>
               </div>
             </div>
             <div class="carousel-item">
@@ -98,6 +98,92 @@
             </div>
         </div>
      </div>
+        
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Dudas o comentarios</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                
+                    <div class="form-group">
+                        <label for="txtEmail">Email</label>
+                        <input type="email" class="form-control" id="txtEmail" placeholder="Ingresa tu correo electronico">
+                        <small id="emailHelp" class="form-text text-muted">Nos contactaremos contigo por este medio</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtQuestion">Duda/Comentario</label>
+                        <textarea type="text" class="form-control" id="txtQuestion" aria-describedby="emailHelp" placeholder="Escribe dudas/comentarios/sugerencias" rows="4"></textarea>
+                    </div>
+                
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-success">Guardar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="card-columns">
+            <div class="card">
+                <img src="assets/images/card1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">New York</h5>
+                    <p class="card-text">Es la ciudad más poblada de los Estados Unidos de América, de Norteamérica, de América y de las más pobladas del mundo mundo. Es considerada como una ciudad global, por sus influencias a nivel mundial en los medios de comunicación, en la política, en la educación, en la arquitectura,en el entretenimiento, las artes y la moda.</p>
+                    <btn class="btn btn-info">Ver más</btn>
+                </div>
+            </div>
+            <div class="card">
+                    <img src="assets/images/card5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Peru</h5>
+                        <p class="card-text">Su territorio se compone de diversos paisajes: los valles, las mesetas y las altas cumbres de los Andes se despliegan al oeste hacia la costa desértica y al este hacia la Amazonia. Es uno de los países con mayor diversidad biológica y mayores recursos minerales del mundo</p>
+                        <btn class="btn btn-info">Ver más</btn>
+                    </div>
+            </div>
+             <div class="card">
+                <img src="assets/images/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">India</h5>
+                    <p class="card-text">Hogar de la cultura del valle del Indo y una región histórica por sus rutas comerciales y grandes imperios, el subcontinente indio fue identificado por su riqueza cultural y comercial en la mayor parte de su larga historia.</p>
+                    <btn class="btn btn-info">Ver más</btn>
+                </div>
+            </div>
+             <div class="card">
+                <img src="assets/images/card4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Japon</h5>
+                    <p class="card-text">Japón es un archipiélago compuesto por 6852 islas. El Área del Gran Tokio en la isla de Honshū, donde está la ciudad de Tokio, capital de facto de la nación, es la mayor área metropolitana del mundo, con más de treinta millones de residentes. Y a su vez, Tokio, la capital, es la ciudad más grande del mundo en cuanto a extensión.</p>
+                    <btn class="btn btn-info">Ver más</btn>
+                </div>
+            </div>
+             <div class="card">
+                <img src="assets/images/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Brasil</h5>
+                    <p class="card-text">La mayor parte del país está comprendido entre los trópicos terrestres, por lo que las estaciones climáticas no se sienten de una manera radical en gran parte del mismo. La selva amazónica cubre 3,6 millones de km² del territorio. Gracias a su vegetación y al clima, es uno de los países con más especies de animales en el mundo.</p>
+                    <btn class="btn btn-info">Ver más</btn>
+                </div>
+            </div>
+             <div class="card">
+                <img src="assets/images/card6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rusia</h5>
+                    <p class="card-text">es el país más extenso del mundo. La Federación de Rusia cuenta con una superficie de 17 098 242 km2,1​ equivalente a la novena parte de la tierra firme del planeta, y con gran variedad de relieve y de ecosistemas. Su capital es la ciudad federal de Moscú.</p>
+                    <btn class="btn btn-info">Ver más</btn>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
 </body>
 </html>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
