@@ -1,0 +1,28 @@
+.carousel-item img {
+    height: 60vh! important;
+}
+
+body{
+  
+}
+
+.carousel-caption h3, 
+.carousel-caption h5 {
+    font-weight: 500;
+}
+
+.container-icons {
+    margin-top: 80px;
+}
+
+.container-icons .row div {
+ text-align: center;
+}
+
+.container-icons {
+    text-align: center;
+}
+
+.subititle {
+    padding-top: 80px;
+}
