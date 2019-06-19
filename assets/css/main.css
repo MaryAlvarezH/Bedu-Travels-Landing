@@ -30,8 +30,67 @@ nav a img {
 .subititle {
     padding-top: 80px;
 }
-/* 
-.card img {
-    height: 130px;
+
+.collection-cards {
+    margin: 40px;
+}
+
+
+
+footer {
+    background-color: black;
+    height: 15vh;
+    text-align: center;
+    font-size: 14px;
+    color:white;
+    font-style: oblique;
+    padding: 30px;
+    align-content: center;
+    display: flex!important;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+footer .contact {
+    text-align: left;
+    padding: 20px;
+    font-style: normal;
+}
+
+footer .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 250px;
-} */
+    padding: 60px;
+}
+
+.social-media .fa {
+    padding: 7px;
+    font-size: 28px;
+    width: 40px;
+    height: 39px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.social-media .fa:hover {
+    opacity: 0.7;
+  }
+.social-media .fa-facebook {
+    background: #3B5998;
+    color: white;
+
+  }
+.social-media .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.social-media .fa-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+  }
